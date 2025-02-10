@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 import axios from "axios"
 import { toast } from "react-toastify";
 
-const url = "http://localhost:4000"
+const url = "https://yumcart-backend.onrender.com"
 
 const Add = () => {
     
