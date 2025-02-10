@@ -10,7 +10,7 @@ import { assets } from '../../assets/assets'
 
 const Orders = () => {
 
-  const url = "http://localhost:4000"
+  const url = "https://yumcart-backend.onrender.com"
   const [orders,setOrders] = useState([]);
 
   const fetchAllOrders = async() => {
